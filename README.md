@@ -10,11 +10,23 @@ A simple text editor.
 
 ## Clone, Build, and Run
 
+Clone into tlotexteditor directory.
+
 ```
-$ git clone --branch develop <url/to/tlotexteditor.git> # clone into tlotexteditor directory
+$ git clone --branch develop <url/to/tlotexteditor.git>
+```
+
+Build.
+
+```
 $ mkdir tlotexteditorbuild
 $ cd tlotexteditorbuild
 $ cmake -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Debug ../tlotexteditor
 $ make
+```
+
+Run.
+
+```
 $ ./tlotexteditor
 ```
