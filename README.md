@@ -28,5 +28,5 @@ $ make
 Run.
 
 ```
-$ ./tlotexteditor
+$ ./src/tlotexteditor
 ```
